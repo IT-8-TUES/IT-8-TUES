@@ -1,0 +1,28 @@
+p {
+ /*styling fro all p*/
+    /* color: rgb(255, 0, 0);
+    background-color: beige; */
+
+    /* font-size: 20px;
+    font-weight:800;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif */
+    /* font:  */
+/* 
+    height: 25%;
+    width: 50%; */
+
+    /* border: 1px solid blue;
+    border-radius: 10px;
+
+    padding: 2rem;
+    margin: 5rem;
+    padding-left: 5rem;
+    margin-top: 10rem; */
+
+    display: flex;
+
+};
+
+
+
