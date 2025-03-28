@@ -23,6 +23,6 @@ Links that can help the students comprehend the material better
 ### 3. CSS
  - https://www.w3schools.com/css/css_examples.asp
  - https://dev.to/shieldstring/css-properties-modifying-the-appearance-and-layout-of-elements-2fnf
- - ##### Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ - ### Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
