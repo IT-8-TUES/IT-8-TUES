@@ -1,0 +1,43 @@
+p {
+ /* used when we need to apply style to all html tags of this type */
+};
+
+#paragraph-1 {
+    /* used when we want to apply style only to an element with the corresponding id */
+};
+
+.post-card {
+    /* used when we want to apply style to elements of the corresponding class */
+};
+
+.post-card:nth-child(3){
+    /* used to apply style only on the 3rd occurence of this class looking top to bottom */
+}
+
+h1 {
+    /* Color changes */
+    color: rgba(245, 10, 0, 1);
+    background-color: aquamarine;
+
+    /* Font modification */
+    font-size: 3rem; /* !!! adaptive units */
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font: large; /* common modificator !!! usage of this on the test will result in .3 of the points*/
+
+    height: 10%; /* pay attention also to min/max height/width */
+    width: 25%;
+
+    /* Box model */
+    margin-top: 10rem;
+    margin: 5rem;
+
+    border: 1px solid blue; /* common modificator */
+    border-radius: 10px;
+
+    padding: 2rem;
+    padding-left: 5rem;
+
+
+}
