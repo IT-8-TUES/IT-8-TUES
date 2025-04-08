@@ -1,0 +1,31 @@
+ p {
+    color: rgb(46, 129, 217);
+    background-color: rgb(255, 213, 213); */
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+     font-weight:0;
+    font-style: italic;
+    /* font:   */
+
+    width: 10%; 
+    height: 20%;
+
+    border: 1px solid red;
+    border-radius: 5px;
+
+    padding: 10px 10px 20px 30px;
+    padding-left: 50px;
+
+    margin: 40px;
+    margin-top: 60px;
+
+ };
+
+ .postcard {
+
+ };
+
+#img1 {
+
+};
