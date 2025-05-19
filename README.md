@@ -24,5 +24,9 @@ Links that can help the students comprehend the material better
  - https://www.w3schools.com/css/css_examples.asp
  - https://dev.to/shieldstring/css-properties-modifying-the-appearance-and-layout-of-elements-2fnf
  - ### Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+### 4. JavaScript
+ - https://www.w3schools.com/html/html_scripts.asp
+ - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+ - https://www.w3schools.com/js/js_syntax.asp
 
 
