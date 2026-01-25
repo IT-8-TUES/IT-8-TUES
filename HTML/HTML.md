@@ -4,8 +4,8 @@
 
 These tags define the broad layout and meaning of the page content.
 
-- <title>: Sets the name of the webpage displayed on the browser tab.
-- <link>: Connects the HTML file to external resources, most commonly CSS stylesheets.
+- "<title>": Sets the name of the webpage displayed on the browser tab.
+- "<link>": Connects the HTML file to external resources, most commonly CSS stylesheets.
 - <header>: A container for introductory content, such as logos or the main title.
 - <nav>: Specifically designates a section intended for navigation links.
 - <main>: Encapsulates the unique, primary content of the body; there should only be one per page.
