@@ -1,0 +1,144 @@
+/* --- SELECTORS --- */
+
+/* Element Selector: Targets all tags of a specific type */
+p {
+  font-family: sans-serif;
+}
+
+/* ID Selector: Targets a single unique element */
+#paragraph-1 {
+  color: grey;
+}
+
+/* Class Selector: Targets groups of elements */
+.post-card {
+  display: block;
+}
+
+/* Pseudo-class (:nth-child): Targets elements based on their order */
+.item:nth-child(2) {
+  order: 5;
+}
+
+/* Pseudo-class (:hover): Applies style when the mouse is over an element */
+.item:hover {
+  opacity: 0.8;
+}
+
+/* --- BOX MODEL & SPACING --- */
+
+/* margin: Space outside the border */
+h1 {
+  margin: 5rem;
+}
+
+/* padding: Space between content and border */
+h1 {
+  padding: 2rem;
+}
+
+/* border: Shorthand for width, style, and color */
+h1 {
+  border: 1px solid blue;
+}
+
+/* border-radius: Rounds the corners of the box */
+h1 {
+  border-radius: 10px;
+}
+
+/* box-sizing: Defines how width/height are calculated (crucial for layouts) */
+* {
+  box-sizing: border-box;
+}
+
+/* --- VISUALS & TYPOGRAPHY --- */
+
+/* color: Sets the text color using RGBA (Red, Green, Blue, Alpha) */
+h1 {
+  color: rgba(245, 10, 0, 1);
+}
+
+/* background-color: Sets the background color of an element */
+h1 {
+  background-color: aquamarine;
+}
+
+/* font-size: Sets text size (rem is an adaptive unit) */
+h1 {
+  font-size: 3rem;
+}
+
+/* font-weight: Sets the thickness of characters */
+h1 {
+  font-weight: bolder;
+}
+
+/* font-style: Used for italics */
+h1 {
+  font-style: italic;
+}
+
+/* font-family: Defines the typeface list */
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* opacity: Sets the transparency level */
+.container {
+  opacity: 1;
+}
+
+/* --- DIMENSIONS --- */
+
+/* width: Sets the width of an element */
+.container {
+  width: 80%;
+}
+
+/* height: Sets the height of an element */
+.container {
+  height: 100vh;
+}
+
+/* max-width: Ensures an element doesn't grow past a certain point */
+.container {
+  max-width: 800px;
+}
+
+/* --- FLEXBOX (Layout) --- */
+
+/* display: flex: Turns a container into a flexbox */
+.container {
+  display: flex;
+}
+
+/* flex-direction: Sets the axis (row or column) */
+.container {
+  flex-direction: row;
+}
+
+/* flex-wrap: Controls if items wrap to new lines */
+.container {
+  flex-wrap: wrap;
+}
+
+/* justify-content: Aligns items along the main axis */
+.container {
+  justify-content: space-between;
+}
+
+/* align-items: Aligns items along the cross axis */
+.container {
+  align-items: center;
+}
+
+/* flex-grow: Defines the ability for an item to grow if necessary */
+.item {
+  flex-grow: 2;
+}
+
+/* align-self: Allows individual flex items to override container alignment */
+.item {
+  align-self: flex-end;
+}
