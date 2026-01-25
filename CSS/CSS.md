@@ -50,3 +50,9 @@ For the Children (Items)
 
 - flex-grow: Dictates how much an item should grow relative to others to fill extra space.
 - align-self: Allows a single item to override the container's align-items setting.
+
+Unit - Type - Description
+px - Absolute - Fixed pixels; does not change based on screen size.
+rem - Relative - Based on the root (<html>) font size; best for accessibility.
+% - Relative - Based on the size of the parent element.
+vh/vw - Relative - Based on 1% of the Viewport Height or Viewport Width.
