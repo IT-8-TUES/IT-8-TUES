@@ -21,6 +21,8 @@ Every element in CSS is a rectangular box. These properties control the size and
 - border: A shorthand property to set the width, style (solid, dashed), and color of the edge.
 - border-radius: Rounds the corners of the element's outer border.
 - box-sizing: border-box: A crucial setting that ensures padding and borders are included in the total width/height, making layouts much easier to manage.
+    $$\text{Total Width} = \text{Width} + \text{Padding} + \text{Border}$$
+    $$\text{Total Width} = \text{Width (includes Padding and Border)}$$
 
 ## 🔡 Typography & Visuals
 
