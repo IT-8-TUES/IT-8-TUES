@@ -31,3 +31,11 @@ while (score < 1) {
 do {
   score--;
 } while (score > 0);
+
+
+
+
+
+
+
+
